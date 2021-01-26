@@ -36,7 +36,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 .header {
     padding: 30px;
 }
@@ -44,5 +44,8 @@ export default {
     max-width: 70%;
     display: block;
     margin: auto;
+    image {
+        width: 100%;
+    }
 }
 </style>
